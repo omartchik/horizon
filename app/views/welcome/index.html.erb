@@ -13,9 +13,9 @@
           </div>
           <!-- Services Grid Items-->
           <div class="container">
-            <div class="row">
-              <div class="card-deck">
-                <div class="card">
+            <div class="row justify-content-center">
+              <div class="card-deck col-xs-12 col-lg-4">
+                <div class="card ">
                   <%= image_tag 'particulier.svg', class: "card-img-top  p-4 w-75" %>
                   <div class="card-body">
                     <h5 class="card-title text-secondary">Particuliers</h5>
@@ -28,6 +28,8 @@
                     <p class="card-text"><small class="text-muted">L'Horizon Vert - Nice-France</small></p>
                   </div>
                 </div>
+              </div>
+              <div class="card-deck col-xs-12 col-lg-4">
                 <div class="card">
                   <%= image_tag 'pro.svg', class: "card-img-top  p-4 w-75" %>
                   <div class="card-body">
@@ -43,6 +45,8 @@
                     <p class="card-text"><small class="text-muted">L'Horizon Vert - Nice-France</small></p>
                   </div>
                 </div>
+              </div>
+              <div class="card-deck col-xs-12 col-lg-4">
                 <div class="card">
                   <%= image_tag 'prices.svg', class: "card-img-top p-4 w-50" %>
                   <div class="card-body">
@@ -246,7 +250,8 @@
         </section>
         <!-- Portfolio Modal-->
 
-        <section class="page-section parallax bg-primary text-white mb-0" id="about" style="background-image: url('<%= image_path('portfolio/master1.jpg') %>'); background-size: cover; background-position: center;background-attachment: fixed;">
+        <section class="page-section parallax bg-primary text-white mb-0" id="about"
+          style="background-image: url('<%= image_path('portfolio/master1.jpg') %>'); background-size: cover; background-position: center;background-attachment: fixed;">
           <div class="overlay">
             <!-- About Section Heading-->
             <div class="text-center apropos">
