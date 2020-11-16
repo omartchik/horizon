@@ -1,8 +1,4 @@
 .parallax{
-  background-image: url('portfolio/master1.jpg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
   padding: 0;
   background-color: rgb(37, 155, 139);
   width: 100%;
@@ -30,10 +26,6 @@
   height: 100%;
 }
 .parallax1 {
-  background-image: url('portfolio/master.jpg');
-  background-size: cover;
-  background-position: bottom;
-  background-attachment: fixed;
   padding: 10rem;
   background-color: rgb(37, 155, 139);
   width: 100%;
